@@ -1,9 +1,18 @@
-# 🌐 Portfolio Website
+# 🌐 Personal Portfolio
 
-Live site: https://vishwaraval-portfolio.vercel.app
+Live website:
+https://vishwaraval-portfolio.vercel.app
 
----
-Built with:
-- React
-- Tailwind
-- Bolt
+This repository contains the source code for my personal portfolio website showcasing my projects, skills, and experience in software engineering and AI.
+
+## Tech Stack
+
+* React
+* Tailwind CSS
+* Vite
+* Bolt (AI-assisted development)
+* Vercel (Deployment)
+
+## Author
+
+Vishwa Raval
