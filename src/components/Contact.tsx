@@ -51,7 +51,7 @@ const Contact = () => {
 
               <div className="space-y-3">
                 <a
-                  href="www.linkedin.com/in/vishwa-raval-063938216"
+                  href="https://www.linkedin.com/in/vishwaraval-063938216/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 p-3 bg-white/10 rounded-lg hover:bg-white/20 transition-all hover:scale-105"
