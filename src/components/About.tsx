@@ -43,7 +43,7 @@ const About = () => {
                 </div>
                 <div>
                   <h3 className="font-bold text-slate-900 mb-2">Current Role</h3>
-                  <p className="text-slate-700">ODC Analyst</p>
+                  <p className="text-slate-700">AML/KYC Analyst</p>
                   <p className="text-slate-600 text-sm">PwC Australia</p>
                   <p className="text-cyan-600 font-semibold text-sm mt-1">Jan 2025 - Present</p>
                 </div>
