@@ -2,45 +2,47 @@ import { Briefcase, Calendar } from 'lucide-react';
 
 const Experience = () => {
   const experiences = [
-    {
-      title: 'Operational Delivery Centre (ODC) Analyst',
-      company: 'PwC Australia',
-      location: 'Sydney, NSW',
-      period: 'Jan 2025 – Present',
-      current: true,
-      achievements: [
-        'Improved data quality and operational reliability by performing comprehensive validation and quality checks on client datasets, reducing reporting errors by enforcing consistency standards',
-        'Enhanced operational reporting workflows using Microsoft Excel and enterprise systems, enabling faster data-driven insights for stakeholders',
-        'Maintained accurate structured documentation and compliance standards, ensuring seamless knowledge transfer and operational continuity across teams',
-        'Collaborated with cross-functional teams to standardize operational deliverables, increasing process reliability and team efficiency'
-      ]
-    },
-    {
-      title: 'Winter Research Scholar — Machine Learning & Data Automation',
-      company: 'Western Sydney University',
-      location: 'Sydney, NSW',
-      period: 'Jul 2025 – Nov 2025',
-      current: false,
-      achievements: [
-        'Designed and developed automated Python data pipelines that accelerated large-scale dataset processing, reducing manual processing time and improving data consistency across global health datasets',
-        'Implemented and evaluated multiple machine learning models using scikit-learn, achieving statistically significant predictions on complex health datasets',
-        'Analyzed global obesity datasets to identify critical statistical patterns and predictive insights, contributing to evidence-based research findings',
-        'Built production-ready, modular Python code with comprehensive documentation, establishing best practices for reproducible research workflows'
-      ]
-    },
-    {
-      title: 'PASS Facilitator (Peer Assisted Study Sessions)',
-      company: 'Western Sydney University',
-      location: 'Sydney, NSW',
-      period: 'Feb 2024 – Nov 2025',
-      current: false,
-      achievements: [
-        'Led 40+ academic support sessions that significantly improved student understanding of complex programming and computer science concepts',
-        'Mentored students through structured problem-solving methodologies, building confidence and fostering deeper technical understanding',
-        'Fostered collaborative learning environment that improved student academic performance and confidence in technical coursework'
-      ]
-    }
-  ];
+  {
+    title: 'AML/KYC Analyst',
+    company: 'PwC Australia',
+    location: 'Sydney, NSW',
+    period: 'Jan 2025 – Present',
+    current: true,
+    achievements: [
+      'Analysed structured and unstructured client datasets across 20–30 cases daily to identify compliance risks and data inconsistencies',
+      'Investigated complex company ownership structures and identified Ultimate Beneficial Owners (UBOs) across multi-layered datasets',
+      'Applied data validation and quality assurance techniques to improve data accuracy and ensure regulatory compliance standards',
+      'Identified anomalies and potential risk indicators through analysis of financial and operational data',
+      'Collaborated with cross-functional teams to support risk-based decision-making and maintain audit-ready documentation'
+    ]
+  },
+  {
+    title: 'Winter Research Scholar — Machine Learning & Data Analytics',
+    company: 'Western Sydney University',
+    location: 'Sydney, NSW',
+    period: 'Jul 2025 – Nov 2025',
+    current: false,
+    achievements: [
+      'Performed data preprocessing, feature engineering, and analysis on global health datasets (~9,000 records) to extract meaningful insights',
+      'Developed and evaluated machine learning models (Decision Tree, Random Forest, Logistic Regression, Neural Networks) using Python (scikit-learn)',
+      'Achieved 92.3% model accuracy through systematic model evaluation and performance optimisation',
+      'Analysed obesity datasets to identify statistical patterns and predictive indicators for data-driven insights',
+      'Built interactive Tableau dashboards with TabPy integration to visualise model outputs and support analytical decision-making'
+    ]
+  },
+  {
+    title: 'PASS Facilitator (Peer Assisted Study Sessions)',
+    company: 'Western Sydney University',
+    location: 'Sydney, NSW',
+    period: 'Feb 2024 – Nov 2025',
+    current: false,
+    achievements: [
+      'Led 40+ academic support sessions simplifying complex programming and computer science concepts for students',
+      'Mentored students in structured problem-solving approaches, improving analytical thinking and technical confidence',
+      'Facilitated collaborative learning environments that enhanced student engagement and academic performance'
+    ]
+  }
+];
 
   return (
     <section id="experience" className="py-20 px-4 bg-white">
