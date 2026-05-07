@@ -75,6 +75,9 @@ const Projects = () => {
         'Sprint-based development',
         'Task tracking with Jira'
       ],
+      links: [
+        { label: 'View Code', url: 'https://github.com/Vishwa936/trail-management-system' }
+      ],
       color: 'cyan'
     }
   ];
