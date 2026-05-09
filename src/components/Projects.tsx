@@ -62,7 +62,7 @@ const Projects = () => {
       color: 'blue'
     },
     {
-      title: 'Django Web Application',
+      title: 'Trail Management System (Django Backend)',
       description: 'A backend web application developed using Python and Django implementing server-side logic, authentication, and database integration using agile development methodologies.',
       icon: Code,
       type: 'Backend Project',
