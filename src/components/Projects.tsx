@@ -79,7 +79,24 @@ const Projects = () => {
         { label: 'View Code', url: 'https://github.com/Vishwa936/trail-management-system' }
       ],
       color: 'cyan'
-    }
+    },
+    {
+  title: 'MenUWS Android Application',
+  description: 'A mobile application developed using Android Studio to support university-based functionality, implementing user interaction, data handling, and mobile UI design.',
+  icon: Code,
+  type: 'Mobile Project',
+  technologies: ['Java/Kotlin', 'Android Studio', 'XML', 'Mobile UI', 'SQLite'],
+  features: [
+    'Mobile application development using Android Studio',
+    'User interface design and navigation',
+    'Local data handling and storage',
+    'Event-driven application logic'
+  ],
+  links: [
+    { label: 'View Code', url: 'https://github.com/Vishwa936/menuws-android-app' }
+  ],
+  color: 'blue'
+}
   ];
 
   const getColorClasses = (color: string) => {
